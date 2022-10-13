@@ -22,7 +22,7 @@ const Products = db.define('products', {
   },
   isAvailable: {
     type: DataTypes.BOOLEAN,
-    // allowNull: false //*No se puede colocar false si esto esta habilitado, Buen truco profe Sahid.
+    allowNull: false
   }
 })
 

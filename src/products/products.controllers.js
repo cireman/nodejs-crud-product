@@ -7,9 +7,7 @@ const getAllProducts = async () => {
   return data
 }
 
-getAllProducts()
-  .then((response) => console.log(response))
-  .catch((err) => console.log(err))
+
 
 const createProduct = async (data) => {
   const newProduct = await Products.create({
@@ -31,9 +29,7 @@ const getProductById = async (id) => {
   return data
 }
 
-getProductById()
-  .then((response) => console.log(response))
-  .catch(err => console.log(err))
+
 
 
 const editProduct = async (id, data) => {
